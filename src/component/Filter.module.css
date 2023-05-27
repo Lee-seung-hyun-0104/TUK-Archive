@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+.Chips {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    height: 35px;
+    padding: 0 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    cursor: pointer;
+    border: 1px solid #D5D5D5;
+    box-sizing: border-box;
+    margin-left: 12px;
+}
+.Chips.Selected{
+    color: #0057ff;
+    border: 1px solid #0057ff;
+}
+
+
+
+.Filters{
+    width: 952px;
+    height: 185px;
+    padding-left: 32px;
+    background: #FAFAFA;
+    border-radius: 16px;
+
+    margin-bottom: 100px;
+}
+
+.Filter:last-child {
+    border: none;
+  }
+
+.Filter{
+    display: flex;
+    width: 888px;
+    height: 58px;
+    align-items: center;
+    border-bottom: 1px solid #f2f2f2;
+}
+.filterTitle{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: Bold;    
+}
+.filterChips{
+    position: absolute;
+    left: 103px;
+}

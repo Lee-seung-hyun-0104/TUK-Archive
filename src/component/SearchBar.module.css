@@ -1,0 +1,23 @@
+.SearchBar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    width: 952px;
+    /* height: 48px; */
+    border: 1px solid #777;
+    border-radius: 24px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+
+    margin-bottom: 100px;
+}
+
+.SearchBar.Selected {
+    border: 1px solid #0057FF;
+}
+
+.Icon{
+    width: 24px;
+    height: 24px;
+}

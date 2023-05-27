@@ -1,0 +1,65 @@
+.blueFill {
+  background-color: #0057ff;
+  color: white;
+  border: none;
+
+  margin-bottom: 100px;
+}
+
+.blueStroke {
+  background-color: white;
+  color: #0057ff;
+  border: 1px solid #0057ff;
+}
+
+.greyStroke {
+  background-color: white;
+  color: #777777;
+  border: 1px solid #d4d4d4;
+}
+
+.buttonMedium {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 36px;
+  gap: 10px;
+  /* width: 120px;
+  height: 44px; */
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+}
+
+.iconbuttonMedium {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background: #0057ff;
+  border-radius: 100px;
+}
+
+.buttonSmall {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  gap: 4px;
+  /* width: 80px;
+  height: 36px; */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* 일단 blueFill일때만 호버, 프레스 적용 */
+.blueFill:hover {
+  opacity: 0.8;
+}
+
+.blueFill:active {
+  opacity: 0.6;
+}

@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sort{
+    display: flex;
+    gap: 8px;
+
+    cursor: pointer;
+
+    margin-bottom: 100px;
+}
+
+.sortBy{
+    padding: 4px;
+
+    font-size: 14px;
+    color: #777777;
+}
+
+.sortByActive{
+    padding: 4px;
+
+    font-size: 14px;
+    font-weight: bold;
+    color: #0057FF;
+}

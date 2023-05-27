@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.userProfile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 952px;
+    height: 200px;
+    padding: 0 40px;
+
+    border-radius: 16px;
+    border: #EDEDED solid 1px;
+
+    margin-bottom: 100px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+
+    gap: 36px;
+    padding: 8px 20px;
+}
+
+.profileImage{
+    width: 120px;
+    height: 120px;
+    position: relative;
+}
+
+.image{
+    height: 120px;
+    background-image: var(--background-image);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.iconButton{
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
+
+.brief{
+    display: flex;
+    flex-direction: column;
+}
+
+.brief h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.brief p{
+    font-size: 16px;
+    color: #777777;
+}
+
+.summary{
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.summaryItem{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.summaryItem p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #777777;
+}
+
+.summaryItem h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: #333333;
+}

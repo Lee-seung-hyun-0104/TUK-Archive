@@ -1,0 +1,7 @@
+.TextInput{    
+    width: 100%;
+    height: var(--height);
+    font-size: 16px;
+    border: none;
+    width: 864px;
+}

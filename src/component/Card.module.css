@@ -1,0 +1,175 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card{
+  width: 220px;
+  height: 220px;
+
+  border-radius: 8px;
+  
+
+  position: relative;
+
+  overflow: hidden;
+  
+  cursor: pointer;
+}
+
+.content{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+  padding: 12px;
+  width: 220px;
+  height: 220px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.selected{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+  padding: 12px;
+  width: 220px;
+  height: 220px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: all ease 0.3s;
+}
+
+.disabled{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+  padding: 12px;
+  width: 220px;
+  height: 220px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all ease 0.3s;
+}
+
+.subject{
+  display: inline-block;
+  align-items: center;
+  padding: 6px 16px;
+
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.subjectTitle{
+  font-size: 10px;
+  color: #fff;
+}
+
+.select{
+  width: 28px;
+  height: 28px;
+
+  border-radius: 500px;
+
+  background-color: #0057FF;
+
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+.order{
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+
+  gap: 4px;
+}
+
+.name{
+  font-size: 8px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  
+  color: #fff;
+}
+
+.title{
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+
+  color: #fff;
+}
+
+.like{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.icon{
+  color: #fff;
+  font-size: 14px;
+}
+
+.number{
+  font-size: 12px;
+  font-weight: 400;
+
+  color: #fff;
+}
+
+.content:hover{
+  opacity: 1;
+  transition: all ease 0.3s;
+}
+
+.disabled:hover{
+  opacity: 1;
+  transition: all ease 0.3s;
+}
+
+.img{
+  z-index: -10;
+  transition: all ease 0.3s;
+}
+
+.imgNone{
+  z-index: -10;
+  opacity: 0.2;
+  transition: all ease 0.3s;
+}
+

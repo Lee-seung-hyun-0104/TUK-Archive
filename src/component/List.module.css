@@ -1,11 +1,30 @@
-.list{
+.cardList{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: flex-start;
   padding: 0px;
   gap: 24px;
-
+  
 
   width: 952px;
 
-  margin-bottom: 100px;
+}
+
+.pageTitle{
+  font-weight: 700;
+  font-size: 20px;
+  color: #333;
+
+  margin-bottom: 40px;
+}
+
+.list{
+  width: 952px;
+  text-align: center;
+
+  margin-top: 100px;
+  margin-left: 100px;
 }

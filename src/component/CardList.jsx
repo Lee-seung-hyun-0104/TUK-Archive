@@ -1,36 +1,125 @@
-import React from "react";
-import styles from './List.module.css'
+import React, { Children } from "react";
+import styles from "./List.module.css";
 import CardItem from "./CardItem";
-import Cardstyles from './CardItem.module.css'
-
 
 function CardList(props){
-
   return(
     <div className={styles.list}>
+      <div className={styles.title}><h2 className={styles.pageTitle}>{props.pageTitle}Representative Work</h2></div>
+      <div>{props.children}</div>
+      <div className={styles.cardList}>
         <CardItem
-            className={Cardstyles.CardItemDefault}
-            image={""}
-            subject={"웹어플리케이션 응용"}
-            userName={"이승현"}
-            title={"미니블로그"}
-            like={17}/>
+        img={"image/CardItem.png"}
+        subject={"웹어플리케이션 응용"}
+        userName={"정은지"}
+        title={"미니블로그"}
+        number={17}
+        onClick={function(){
+          console.log("작품 페이지로 이동")
+        }} />
         <CardItem
-            className={Cardstyles.CardItemHover}
-            image={""}
-            subject={"웹어플리케이션 응용"}
-            userName={"이승현"}
-            title={"미니블로그"}
-            like={18}/>
+        img={"image/CardItem.png"}
+        subject={"웹어플리케이션 응용"}
+        userName={"정은지"}
+        title={"미니블로그"}
+        number={17}
+        onClick={function(){
+          console.log("작품 페이지로 이동")
+        }} />
         <CardItem
-            className={Cardstyles.CardItemDisabled}
-            image={""}
-            subject={"웹어플리케이션 응용"}
-            userName={"이승현"}
-            title={"미니블로그"}
-            like={19}/>      
+        img={"image/CardItem.png"}
+        subject={"웹어플리케이션 응용"}
+        userName={"정은지"}
+        title={"미니블로그"}
+        number={17}
+        onClick={function(){
+          console.log("작품 페이지로 이동")
+        }} />
+        <CardItem
+        img={"image/CardItem.png"}
+        subject={"웹어플리케이션 응용"}
+        userName={"정은지"}
+        title={"미니블로그"}
+        number={17}
+        onClick={function(){
+          console.log("작품 페이지로 이동")
+        }} />
+        <CardItem
+        img={"image/CardItem.png"}
+        subject={"웹어플리케이션 응용"}
+        userName={"정은지"}
+        title={"미니블로그"}
+        number={17}
+        onClick={function(){
+          console.log("작품 페이지로 이동")
+        }} />
+        <CardItem
+        img={"image/CardItem.png"}
+        subject={"웹어플리케이션 응용"}
+        userName={"정은지"}
+        title={"미니블로그"}
+        number={17}
+        onClick={function(){
+          console.log("작품 페이지로 이동")
+        }} />
+        <CardItem
+        img={"image/CardItem.png"}
+        subject={"웹어플리케이션 응용"}
+        userName={"정은지"}
+        title={"미니블로그"}
+        number={17}
+        onClick={function(){
+          console.log("작품 페이지로 이동")
+        }} />
+        <CardItem
+        img={"image/CardItem.png"}
+        subject={"웹어플리케이션 응용"}
+        userName={"정은지"}
+        title={"미니블로그"}
+        number={17}
+        onClick={function(){
+          console.log("작품 페이지로 이동")
+        }} />
+        <CardItem
+        img={"image/CardItem.png"}
+        subject={"웹어플리케이션 응용"}
+        userName={"정은지"}
+        title={"미니블로그"}
+        number={17}
+        onClick={function(){
+          console.log("작품 페이지로 이동")
+        }} />
+        <CardItem
+        img={"image/CardItem.png"}
+        subject={"웹어플리케이션 응용"}
+        userName={"정은지"}
+        title={"미니블로그"}
+        number={17}
+        onClick={function(){
+          console.log("작품 페이지로 이동")
+        }} />
+        <CardItem
+        img={"image/CardItem.png"}
+        subject={"웹어플리케이션 응용"}
+        userName={"정은지"}
+        title={"미니블로그"}
+        number={17}
+        onClick={function(){
+          console.log("작품 페이지로 이동")
+        }} />
+        <CardItem
+        img={"image/CardItem.png"}
+        subject={"웹어플리케이션 응용"}
+        userName={"정은지"}
+        title={"미니블로그"}
+        number={17}
+        onClick={function(){
+          console.log("작품 페이지로 이동")
+        }} />
+      </div>
+
     </div>
   )
 }
 
-export default CardList
+export default CardList;

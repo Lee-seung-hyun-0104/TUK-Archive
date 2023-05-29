@@ -5,7 +5,7 @@ import CardItem from "./CardItem";
 function CardList(props){
   return(
     <div className={styles.list}>
-      <div className={styles.title}><h2 className={styles.pageTitle}>{props.pageTitle}Representative Work</h2></div>
+      <div className={styles.title}><h2 className={styles.pageTitle}>{props.pageTitle}</h2></div>
       <div>{props.children}</div>
       <div className={styles.cardList}>
         <CardItem

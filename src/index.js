@@ -9,6 +9,8 @@ import Button from './component/Button';
 import IconButton from './component/IconButton'
 import CardItem from './component/CardItem';
 import CardList from './component/CardList';
+import RepresentItem from './component/RepresentItem';
+import RepresentList from './component/RepresentList';
 import Filters from './component/Filters';
 import SearchBar from './component/SearchBar';
 
@@ -45,6 +47,11 @@ root.render(
         <CardList
           pageTitle={"Representative Work"}
         />
+              
+        <RepresentItem />
+              
+        <RepresentList
+          pageTitle={"대표작 설정하기"} />
 
         <Filters/>
 

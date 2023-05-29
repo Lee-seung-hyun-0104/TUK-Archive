@@ -1,0 +1,21 @@
+:root {
+    --color-point: #0057ff;
+    --color-grayscale0: #ffffff;
+    --color-grayscale1: #d4d4d4;
+    --color-grayscale2: #777777;
+    --color-grayscale3: #555555;
+    --color-grayscale4: #333333;
+    --color-hover: linear-gradient(180deg,rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0.7) 100%);
+    --color-subjectBox: rgba(0, 0, 0, 0.2);
+    --color-filterStroke: #ededed;
+    --color-subBg: #f6faff;
+    --color-filterBg: #fafafa;
+}
+.TextInput{    
+    width: 100%;
+    height: var(--height);
+    font-size: 16px;
+    border: none;
+    width: 864px;
+    color: var(--color-grayscale4);
+}

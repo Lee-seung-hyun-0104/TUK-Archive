@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+:root {
+    --color-point: #0057ff;
+    --color-grayscale0: #ffffff;
+    --color-grayscale1: #d4d4d4;
+    --color-grayscale2: #777777;
+    --color-grayscale3: #555555;
+    --color-grayscale4: #333333;
+    --color-hover: linear-gradient(180deg,rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0.7) 100%);
+    --color-subjectBox: rgba(0, 0, 0, 0.2);
+    --color-filterStroke: #ededed;
+    --color-subBg: #f6faff;
+    --color-filterBg: #fafafa;
+    }
+
+.Chips {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    height: 35px;
+    padding: 0 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-grayscale4);
+    cursor: pointer;
+    border: 1px solid var(--color-grayscale1);
+    box-sizing: border-box;
+    margin-left: 12px;
+}
+.Chips.Selected{
+    color: var(--color-point);
+    border: 1px solid var(--color-point);
+}
+
+
+
+.Filters{
+    width: 952px;
+    height: 185px;
+    padding-left: 32px;
+    background: var(--color-filterBg);
+    border-radius: 16px;
+
+    margin-bottom: 100px;
+}
+
+.Filter:last-child {
+    border: none;
+  }
+
+.Filter{
+    display: flex;
+    width: 888px;
+    height: 58px;
+    align-items: center;
+    border-bottom: 1px solid var(--color-filterStroke);
+}
+.filterTitle{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: Bold;    
+}
+.filterChips{
+    position: absolute;
+    left: 103px;
+}

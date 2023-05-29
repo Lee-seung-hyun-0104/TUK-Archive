@@ -40,16 +40,11 @@ root.render(
             icon={<Editsomeicon />}
         />
 
-        {/* CSS손보기 */}
-        <CardItem
-            image={""}
-            subject={"웹어플리케이션 응용"}
-            userName={"이승현"}
-            title={"미니블로그"}
-            like={17}
-        />
+        <CardItem />
 
-        <CardList/>
+        <CardList
+          pageTitle={"Representative Work"}
+        />
 
         <Filters/>
 
